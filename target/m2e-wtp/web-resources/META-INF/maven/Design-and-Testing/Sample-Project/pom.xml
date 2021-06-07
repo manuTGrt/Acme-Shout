@@ -21,7 +21,7 @@
 
 	<groupId>Design-and-Testing</groupId>
 	<artifactId>Sample-Project</artifactId>
-	<version>1.18</version>
+	<version>1.21</version>
 	<packaging>war</packaging>
 	
 	<properties>
@@ -46,8 +46,8 @@
 				<artifactId>maven-compiler-plugin</artifactId>
 				<version>3.0</version>
 				<configuration>
-					<source>1.7</source>
-					<target>1.7</target>
+					<source>1.8</source>
+					<target>1.8</target>
 					<showWarnings>true</showWarnings>
 					<compilerArguments>
 						<Xlint />
@@ -96,11 +96,11 @@
 
 		<!-- Spring repository -->
 
-		<repository>
+		<!--<repository>
 			<id>springsource</id>
 			<name>SpringSource Repository</name>
 			<url>http://repo.springsource.org/release</url>
-		</repository>
+		</repository>-->
 
 		<!-- Apache repository -->
 
@@ -113,7 +113,7 @@
 
 		<repository>
 			<id>central</id>
-			<url>http://repo.maven.apache.org/maven2</url>
+			<url>https://repo.maven.apache.org/maven2</url>
 		</repository>
 
 	</repositories>
@@ -221,7 +221,7 @@
 		<dependency>
 			<groupId>mysql</groupId>
 			<artifactId>mysql-connector-java</artifactId>
-			<version>5.1.26</version>
+			<version>8.0.11</version>
 		</dependency>
 
 		<!-- Hibernate -->
